@@ -21,3 +21,7 @@ You can run any program whose path is contained in the **PATH** environment vari
 Redirection only works for executable programs.
 ### Multiple commands
 You can run multiple commands on the same line by separating them from each other with a semicolon.
+## What is the difference between this shell and the OSTEP and bash shell?
+### Built-in commands:
+#### cd
+The cd command does not work as stated in **OSTEP**. Rather, its behavior is closer to the behavior of the cd command in **bash**.
