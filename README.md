@@ -27,4 +27,11 @@ You can run multiple commands on the same line by separating them from each othe
 The **cd** command does not work as stated in **OSTEP**. Rather, its behavior is closer to the behavior of the **cd** command in **bash**. The **cd** command does not accept options, unlike the **bash** version.
 #### pwd
 The **pwd** command also does not accept options, unlike the **bash** version and throws an error when trying to pass an argument.
+#### type
+In process.
+#### help
+The **help** command is a simplified version of a similar **bash** command. The command does not accept options.
+#### exit
+The **exit** command does not work as stated in **OSTEP**. Unlike the OSTEP version, the command ignores any arguments passed to it.
+
 
