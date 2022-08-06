@@ -21,14 +21,14 @@ You can run any program whose path is contained in the **PATH** environment vari
 Redirection only works for executable programs.
 ### Multiple commands
 You can run multiple commands on the same line by separating them from each other with a semicolon.
-## What is the difference between this shell and the OSTEP and bash shell?
+## What is the difference between this shell and the OSTEP and bash shells?
 ### Built-in commands:
 #### cd
 The **cd** command does not work as stated in **OSTEP**. Rather, its behavior is closer to the behavior of the **cd** command in **bash**. The **cd** command does not accept options, unlike the **bash** version.
 #### pwd
 The **pwd** command also does not accept options, unlike the **bash** version and throws an error when trying to pass an argument.
 #### type
-In process.
+The **type** command works in a manner similar to the **bash** version of this command except that it does not accept options and only knows about the existence of built-in commands and executable programs.
 #### help
 The **help** command is a simplified version of a similar command in **bash**. The command does not accept options.
 #### exit
