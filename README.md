@@ -32,7 +32,7 @@ In process.
 #### help
 The **help** command is a simplified version of a similar command in **bash**. The command does not accept options.
 #### exit
-The **exit** command does not work as stated in **OSTEP**. Unlike the OSTEP version, the command ignores any arguments passed to it.
+The **exit** command does not work as stated in **OSTEP**. Unlike the **OSTEP** version, the command ignores any arguments passed to it.
 ### Few words about the path command
 There is no **path** command in my shell, unlike the **OSTEP** version. I don't understand why this command is needed. My opinion is that the development of such a command will significantly complicate the structure of the project and potentially lead to various errors.
 ### Executable program
