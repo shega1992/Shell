@@ -30,7 +30,7 @@ The **pwd** command also does not accept options, unlike the **bash** version an
 #### type
 In process.
 #### help
-The **help** command is a simplified version of a similar **bash** command. The command does not accept options.
+The **help** command is a simplified version of a similar command in **bash**. The command does not accept options.
 #### exit
 The **exit** command does not work as stated in **OSTEP**. Unlike the OSTEP version, the command ignores any arguments passed to it.
 ### Few words about the path command
