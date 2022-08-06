@@ -4,3 +4,6 @@ This repository holds the source code for shell. The idea for the project is tak
 To compile: **make all**.
 
 ## What can this shell do?
+### Built-in commands:
+#### cd
+Change the shell working directory. For more information on options type **help cd** or visit https://en.wikipedia.org/wiki/Cd_(command).
