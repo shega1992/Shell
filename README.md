@@ -41,4 +41,5 @@ I've used **execvp** instead of **execv** when implementing a function that work
 My shell does not redirect the standard error output to a file, unlike the **OSTEP** version. The user wants to see his(her) mistakes on the screen, doesn't he(she)?
 ### Multiple commands(Parallel commands)
 I've used the **;** symbol to run multiple commands on the same line (the **OSTEP** version uses the **&** symbol). One important difference from the **bash** version: the **bash** version throws a syntax error, for example, when trying to run such a combination: *command ; 0 or more spaces ; command*. My version of the shell handles similar cases in a different way, which allows commands to be executed.
-
+## Interactive and Batch modes
+Everything that is written above is true for both modes. In **interactive** mode, you receive an prompt and type commands. In **batch** mode, you pass a file with commands as a program argument. You can only pass one argument at a time.
