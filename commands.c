@@ -149,7 +149,6 @@ void pwd(char ** tokens)
 
 void type(char ** tokens)
 {
-     const char * built_ins = "cd pwd type help exit";
      char * path;
 
      if(tokens[1] == NULL)
@@ -157,7 +156,9 @@ void type(char ** tokens)
      else
 	  for(int i = 1; tokens[i] != NULL; i++)
 	  {
-	       if(strstr(built_ins, tokens[i]))
+	       if(!strcmp(tokens[i], "cd") || !strcmp(tokens[i], "pwd") ||
+		  !strcmp(tokens[i], "type") || !strcmp(tokens[i], "help") ||
+		  !strcmp(tokens[i], "exit"))	     
 		    printf("%s is built-in command\n", tokens[i]);
 	       else
 	       {
