@@ -15,3 +15,9 @@ Display information about command type.
 Display information about built-in commands.
 #### exit
 Quit the shell.
+### Executable program
+You can run any program whose path is contained in the **PATH** environment variable.
+### Redirection
+Redirection only works for executable programs.
+### Multiple commands
+You can run multiple commands on the same line by separating them from each other with a semicolon.
