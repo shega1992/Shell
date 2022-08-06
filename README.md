@@ -36,5 +36,9 @@ The **exit** command does not work as stated in **OSTEP**. Unlike the OSTEP vers
 ### Few words about the path command
 There is no **path** command in my shell, unlike the **OSTEP** version. I don't understand why this command is needed. My opinion is that the development of such a command will significantly complicate the structure of the project and potentially lead to various errors.
 ### Executable program
-I've used **execvp** instead of **execv** when implementing a function that works with executable programs. *why reinvent the wheel?*
+I've used **execvp** instead of **execv** when implementing a function that works with executable programs. *Why reinvent the wheel?*
+### Redirection
+My shell does not redirect the standard error output to a file, unlike the **OSTEP** version. The user wants to see his(her) mistakes on the screen, doesn't he(she)?
+### Multiple commands(Parallel commands)
+I've used the **;** symbol to run multiple commands on the same line (the OSTEP version uses the **&** symbol). One important difference from the **bash** version: the **bash** version throws a syntax error, for example, when trying to run such a combination: *command ; 0 or more spaces ; command*. My version of the shell handles similar cases in a different way, which allows commands to be executed.
 
