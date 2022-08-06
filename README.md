@@ -24,4 +24,7 @@ You can run multiple commands on the same line by separating them from each othe
 ## What is the difference between this shell and the OSTEP and bash shell?
 ### Built-in commands:
 #### cd
-The cd command does not work as stated in **OSTEP**. Rather, its behavior is closer to the behavior of the cd command in **bash**.
+The **cd** command does not work as stated in **OSTEP**. Rather, its behavior is closer to the behavior of the **cd** command in **bash**. The **cd** command does not accept options, unlike the **bash** version.
+#### pwd
+The **pwd** command also does not accept options, unlike the **bash** version and throws an error when trying to pass an argument.
+
